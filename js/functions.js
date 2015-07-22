@@ -1,5 +1,133 @@
 /* ==============================================
-	Preload
+	Hide the form wizard 2 on load
+=============================================== */
+$(document).ready(function(){
+    $('.wizard2').hide();
+    $('#eventMan').hide();
+    $('#activities').hide();
+    $('#venues').hide();
+    $('#legal').hide();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').hide();
+    $('#floral').hide();
+
+});
+
+$('.wizard1-btn').click(function(){
+    $('.wizard1').hide();
+    $('.wizard2').show();
+});
+
+$('#activities-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').show();
+    $('#eventMan').hide();
+    $('#legal').hide();
+    $('#venues').hide();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').hide();
+    $('#floral').hide();
+});
+
+$('#event-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').show();
+    $('#legal').hide();
+    $('#venues').hide();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').hide();
+    $('#floral').hide();
+});
+
+$('#legal-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').hide();
+    $('#legal').show();
+    $('#venues').hide();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').hide();
+    $('#floral').hide();
+});
+
+$('#venues-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').hide();
+    $('#legal').hide();
+    $('#venues').show();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').hide();
+    $('#floral').hide();
+});
+
+$('#transport-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').hide();
+    $('#legal').hide();
+    $('#venues').hide();
+    $('#transport').show();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').hide();
+    $('#floral').hide();
+});
+
+$('#technical-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').hide();
+    $('#legal').hide();
+    $('#venues').hide();
+    $('#transport').hide();
+    $('#technical').show();
+    $('#music').hide();
+    $('#food').hide();
+    $('#food').hide();
+    $('#floral').hide();
+});
+
+$('#food-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').hide();
+    $('#legal').hide();
+    $('#venues').hide();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').show();
+    $('#floral').hide();
+});
+
+$('#floral-thumb').click(function(){
+    $('#categories').hide();
+    $('#activities').hide();
+    $('#eventMan').hide();
+    $('#legal').hide();
+    $('#venues').hide();
+    $('#transport').hide();
+    $('#technical').hide();
+    $('#music').hide();
+    $('#food').show();
+    $('#floral').hide();
+});
+
+
+/* ==============================================
+    Preload
 =============================================== */
 $(window).load(function() { // makes sure the whole site is loaded
 	$('#status').fadeOut(); // will first fade out the loading animation

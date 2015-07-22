@@ -2,7 +2,7 @@
 	MINIMAL CSS3 MENU
 ==================================================================================================== */
 
-.main-menu {position: relative;z-index:9;width:auto;padding: 16px;}
+.main-menu {position: relative;z-index:9;width:auto;padding: 16px; float: right;}
 .main-menu a {-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
 .main-menu ul,
 .main-menu ul li,
@@ -149,10 +149,10 @@ a.show-submenu-mega + .menu-wrapper.show_mega,
 }
 
 .cmn-toggle-switch:focus {outline: none;}
-.cmn-toggle-switch span {display: block;position: absolute;top: 10px;left: 0;right: 0;height: 2px;background: white;}
+.cmn-toggle-switch span {display: block;position: absolute;top: 5px;left: 0;right: 0;height: 2px;background: #000000;}
 
 .cmn-toggle-switch span::before,
-.cmn-toggle-switch span::after {position: absolute;display: block;left: 0;width: 100%;height:2px;background-color: #fff; content: "";}
+.cmn-toggle-switch span::after {position: absolute;display: block;left: 0;width: 100%;height:2px;background-color: #000000; content: "";}
 
 .sticky .cmn-toggle-switch span::before,
 .sticky .cmn-toggle-switch span::after,
@@ -167,7 +167,7 @@ header#plain.sticky .cmn-toggle-switch span::after {background-color: #333;}
 
 /* Header transparent colored */
 header#colored.sticky .cmn-toggle-switch span::before,
-header#colored.sticky .cmn-toggle-switch span::after, header#colored.sticky .cmn-toggle-switch span {background-color: #fff;}
+header#colored.sticky .cmn-toggle-switch span::after, header#colored.sticky .cmn-toggle-switch span {background-color: #000000;}
 
 .cmn-toggle-switch span::before {top: -10px;}
 .cmn-toggle-switch span::after {bottom: -10px;}
