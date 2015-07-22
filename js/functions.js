@@ -13,7 +13,25 @@ $(document).ready(function(){
     $('#food').hide();
     $('#floral').hide();
 
+
+
 });
+
+$('#search_bar_container').affix({
+  offset: {
+    top: 140
+  }
+});
+
+$('#sticky-search').hide();
+    $('#hero').mouseover(function(){
+    $('#sticky-search').show();
+        //alert();
+    });
+    $('#position').mouseover(function(){
+    $('#sticky-search').show();
+        //alert();
+    });
 
 $('.wizard1-btn').click(function(){
     $('.wizard1').hide();

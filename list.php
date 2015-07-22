@@ -72,9 +72,6 @@
                 <nav class="col-md-9 col-sm-9 col-xs-9">
                     <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
                     <?php include('header_menu.php'); ?>
-                    <div id="sticky-search" class="main-menu">
-                        <div>dsf</div>
-                    </div><!-- End main-menu -->
                     <ul id="top_tools">
                         <li>
                            <!--<div class="dropdown dropdown-search">
@@ -94,36 +91,10 @@
                             </div>-->
                         </li>
                         <li>
-                            <div class="dropdown dropdown-cart">
-                                <ul class="dropdown-menu" id="cart_items">
-                                    <li>
-                                        <div class="image"><img src="img/thumb_cart_1.jpg" alt=""></div>
-                                        <strong>
-                                        <a href="#">Louvre museum</a>1x $36.00 </strong>
-                                        <a href="#" class="action"><i class="icon-trash"></i></a>
-                                    </li>
-                                    <li>
-                                        <div class="image"><img src="img/thumb_cart_2.jpg" alt=""></div>
-                                        <strong>
-                                        <a href="#">Versailles tour</a>2x $36.00 </strong>
-                                        <a href="#" class="action"><i class="icon-trash"></i></a>
-                                    </li>
-                                    <li>
-                                        <div class="image"><img src="img/thumb_cart_3.jpg" alt=""></div>
-                                        <strong>
-                                        <a href="#">Versailles tour</a>1x $36.00 </strong>
-                                        <a href="#" class="action"><i class="icon-trash"></i></a>
-                                    </li>
-                                    <li>
-                                        <div>Total: <span>$120.00</span></div>
-                                        <a href="cart.html" class="button_drop">Go to cart</a>
-                                        <a href="payment.html" class="button_drop outline">Check out</a>
-                                    </li>
-                                </ul>
-                            </div><!-- End dropdown-cart-->
-                        </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="row">
             </div>
         </div><!-- container -->
     </header><!-- End Header -->
@@ -132,17 +103,11 @@
 
 
 <section id="hero">
-    <!--<div class="intro_title">
-        <h1 class="animated fadeInDown">Affordable Paris tours</h1>
-        <p class="animated fadeInDown">City Tours / Tour Tickets / Tour Guides</p>
-       <a href="#" class="animated fadeInUp button_intro">View Tours</a> <a href="#" class="animated fadeInUp button_intro outline">View Tickets</a>
-    </div> -->
-    
-         <div id="search_bar_container">
-                    <div class="container">
-                        <?php include('search_bar.php'); ?>
-                    </div>
-         </div><!-- /search_bar-->
+    <div id="search_bar_container">
+                                <div class="container">
+                                    <?php include('search_bar.php'); ?>
+                                </div>
+                            </div><!-- /search_bar-->
 </section><!-- End hero -->
     
 <div class="collapse" id="collapseMap">
@@ -516,18 +481,6 @@ $('input').iCheck({
    radioClass: 'iradio_square-grey'
  });
  </script>
-
-<script type="text/javascript">
-        $('#sticky-search').hide();
-        $('#hero').mouseover(function(){
-        $('#sticky-search').hide();
-            //alert();
-        });
-        $('#position').mouseover(function(){
-        $('#sticky-search').show();
-            //alert();
-        });
-</script>
  <!-- Map -->
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script src="js/map_hotels.js"></script>

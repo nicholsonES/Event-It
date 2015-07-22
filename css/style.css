@@ -345,7 +345,7 @@ header{
 	position:fixed;
 	left:0;
 	top:0;
-	z-index:99999;
+	z-index:111;
 	background-color: #ffffff;
 }
 header#plain{background-color:#fff;}
@@ -774,7 +774,7 @@ a#email_footer:before{
 	width: 100%;
 	font-size:16px;
 	display:table;
-	z-index:99;
+	/*z-index:99;*/
 	text-align:center;
 	text-transform:uppercase;
 }
@@ -837,14 +837,6 @@ video {
 
 /* Home 5 */
 #search_bar_container{
-	background:#333;
-	background-color:rgba(136, 136, 136, 0.7);
-	padding:30px 0;
-	position:absolute;
-	left:0;
-	bottom:50%;
-	width:100%;
-	text-align:center;
 }
 
 @media (max-width: 768px) {
@@ -916,21 +908,25 @@ video {
 }
 #nav-search-in {
     display: inline-block;
-    height: 45px;
+    height: 35px;
     left: 0;
     overflow: hidden;
     position: absolute;
     top: 0;
 	background:#81b6b4;
+	width: 100%;  
+	position: relative;
+  	display: table;
+  	border-collapse: separate;
 }
 #nav-search-in #nav-search-in-content {
     color:#fff;
     display: inline-block;
     font-size: 12px;
 	text-transform:uppercase;
-    height: 45px;
+    height: 35px;
     line-height: 35px;
-    margin: 5px 65px 0 15px;
+    margin: 0px 65px 0 15px;
     text-indent: 1px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -939,7 +935,7 @@ video {
 #nav-search-in.nav-facade-active .nav-down-arrow {
     display:inline-block;
     right: 15px;
-    top: 20px;
+    top: 15px;
 	background: url(../img/arrow_down_2.png);
 	height:6px;
 	width:10px;
@@ -947,12 +943,12 @@ video {
 }
 .nav-facade-active #searchDropdownBox {
     cursor: pointer;
-    height: 45px;
+    height: 35px;
     left: 15px;
     opacity: 0;
     top: 0;
     visibility: visible;
-    width: auto;
+    width: 100%;
 }
 #searchDropdownBox {
     background: none repeat scroll 0 0 white;
