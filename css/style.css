@@ -3758,7 +3758,7 @@ ul.list_order li span {
 }
 
 .panel-body {
-  padding: 25px 30px 10px 30px
+  padding: 15px 20px 10px 15px;
 }
 /** Blockquote **/
 
@@ -5366,4 +5366,9 @@ a.profile-save {
     height: auto !important;
     margin-top: -95px !important;
     margin-bottom: 20px !important;
+}
+@media (max-width: 800px) {
+  .fixed-height{
+  height: 1150px !important;
+}
 }

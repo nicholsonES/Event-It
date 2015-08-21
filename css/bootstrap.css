@@ -1573,7 +1573,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    /*width: 750px;*/
   }
 }
 @media (min-width: 992px) {
@@ -5527,7 +5527,8 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default {    
   border-color: #ddd;
-  margin-top: 110px;
+  margin-top: 110px;    
+  padding: 3px;
 }
 .panel-default > .panel-heading {
   color: #333;
