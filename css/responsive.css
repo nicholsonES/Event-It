@@ -16,7 +16,7 @@
 	nav{ margin-top:15px; }
 	header#plain{ padding-bottom:10px;}
 	header#plain.sticky{ padding-bottom:0;}
-	header #logo img.logo_normal, header #logo img.logo_sticky { width:auto; height:30px;}
+	header #logo img.logo_normal, header #logo img.logo_sticky { width:auto; height:36px;}
 	.main-menu ul li.megamenu .menu-wrapper {width:auto; margin-top:20px;}
 	#single_tour_feat ul{margin-bottom:10px;}
 	.review_strip_single.last {border-bottom:1px solid #ddd; margin-bottom:20px;}

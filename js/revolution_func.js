@@ -1,8 +1,8 @@
  jQuery(document).ready(function () {
  			'use strict';
             jQuery('.tp-banner').show().revolution({
-                dottedOverlay: "none",
-                delay: 16000,
+                dottedOverlay: "bullet",
+                delay: 14000,
                 startwidth: 1170,
                 startheight: 550,
                 hideThumbs: 200,
@@ -24,7 +24,7 @@
                 drag_block_vertical: false,
 
                 parallax: "mouse",
-                parallaxBgFreeze: "on",
+                parallaxBgFreeze: "off",
                 parallaxLevels: [7, 4, 3, 2, 5, 4, 3, 2, 1, 0],
 
                 keyboardNavigation: "off",

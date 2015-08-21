@@ -24,7 +24,7 @@ header#colored.sticky .main-menu > ul > li > a {color: #fff;}
 
 
 /* Opacity mask when left open */
-.layer {display: none; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 100; min-height: 100%; background-color: #000; opacity: 0; z-index:9999;}
+.layer {display: none; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 9; min-height: 100%; background-color: #000; opacity: 0; /*z-index:9999;*/}
 .layer-is-visible {display: block;-webkit-animation: fade-in-layer .3s;-moz-animation: fade-in-layer .3s;-ms-animation: fade-in-layer .3s; -o-animation: fade-in-layer .3s;animation: fade-in-layer .3s;opacity: 0.5;}
 
 #close_in,#header_menu, .cmn-toggle-switch{display:none;}	
@@ -132,7 +132,7 @@ a.show-submenu-mega + .menu-wrapper.show_mega,
   display:block;
   overflow: visible;
   position:absolute; 
-  top:0;
+  top: 12px;
   right:20px;
   margin: 0;
   padding: 0;

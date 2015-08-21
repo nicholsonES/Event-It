@@ -7,7 +7,7 @@ $(document).ready(function() {
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: true,
-        autoplay: false,
+        autoplay: true,
         responsive: [{
             breakpoint: 1024,
             settings: {
