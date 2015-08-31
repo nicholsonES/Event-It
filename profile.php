@@ -130,7 +130,7 @@
                 <!-- End Header -->
                 <br/><br/><br/>
                 <section class="parallax-window" data-parallax="scroll" data-image-src="img/topBG.jpg" data-natural-width="1400" data-natural-height="470">
-                    <div id="search_bar_container">
+                    <div id="search_bar_profile" class="profile-search">
                         <div class="container">
                             <?php include('search_bar.php'); ?>
                         </div>
