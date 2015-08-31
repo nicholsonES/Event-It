@@ -306,10 +306,101 @@
                 <center><p><br/>For a full list of sub-categories available in which to list, please go to the next page.</p>
 
                     <div class="bottom-quote"><i class="icon-quote-left"></i>We Want To Help You Grow Your Business<i class="icon-quote-right"></i></center></div>
-
-            <hr/>
             </div>
         </div><!-- End Container -->
+
+          <br/>
+          <br/>
+        <section>
+    <div class="white_bg">
+      <div class="container margin_60">
+        <div class="main_title">
+          <h2>All<span> Testimonials</span></h2>
+        </div>
+        <div class="cd-testimonials-wrapper cd-container">
+          <ul class="cd-testimonials">
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="cd-author">
+                <img src="img/avatar-1.jpg" alt="Author image">
+                <ul class="cd-author-info">
+                  <li>MyName</li>
+                  <li>CEO, AmberCreative</li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
+              <div class="cd-author">
+                <img src="img/avatar-2.jpg" alt="Author image">
+                <ul class="cd-author-info">
+                  <li>MyName</li>
+                  <li>Designer, CodyHouse</li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+          <!-- cd-testimonials -->
+          <a href="#0" class="cd-see-all">View all Testimonials</a>
+        </div>
+        <!-- cd-testimonials-wrapper -->
+
+        <div class="cd-testimonials-all">
+          <div class="cd-testimonials-all-wrapper">
+            <ul>
+
+
+              <li class="cd-testimonials-item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quasi officiis pariatur, fugit minus omnis animi ut assumenda quod commodi, ad a alias maxime unde suscipit magnam, voluptas laboriosam ipsam quibusdam quidem, dolorem deleniti
+                  id.
+                </p>
+
+                <div class="cd-author">
+                  <img src="img/avatar-4.jpg" alt="Author image">
+                  <ul class="cd-author-info">
+                    <li>MyName</li>
+                    <li>CEO, CompanyName</li>
+                  </ul>
+                </div>
+                <!-- cd-author -->
+              </li>
+
+              <li class="cd-testimonials-item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At temporibus tempora necessitatibus reiciendis provident deserunt maxime sit id. Dicta aut voluptatibus placeat quibusdam vel, dolore.</p>
+                <div class="cd-author">
+                  <img src="img/avatar-5.jpg" alt="Author image">
+                  <ul class="cd-author-info">
+                    <li>MyName</li>
+                    <li>CEO, CompanyName</li>
+                  </ul>
+                </div>
+                <!-- cd-author -->
+              </li>
+
+              <li class="cd-testimonials-item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempore ipsam, eos suscipit nostrum molestias reprehenderit, rerum amet cum similique a, ipsum soluta delectus explicabo nihil repellat incidunt! Minima magni possimus mollitia
+                  deserunt facere, tempore earum modi, ea ipsa dicta temporibus suscipit quidem ut quibusdam vero voluptatibus nostrum excepturi explicabo nulla harum, molestiae alias. Ab, quidem rem fugit delectus quod.</p>
+
+                <div class="cd-author">
+                  <img src="img/avatar-6.jpg" alt="Author image">
+                  <ul class="cd-author-info">
+                    <li>MyName</li>
+                    <li>CEO, CompanyName</li>
+                  </ul>
+                </div>
+                <!-- cd-author -->
+              </li>
+            </ul>
+          </div>
+          <!-- cd-testimonials-all-wrapper -->
+
+          <a href="#0" class="close-btn">Close</a>
+        </div>
+      </div>
+  <hr/>
+  </section>>
 <?php include('footer.php') ?><!-- End footer -->
 
 <div id="toTop"></div><!-- Back to top button -->
