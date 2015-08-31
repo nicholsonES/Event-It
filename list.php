@@ -409,10 +409,15 @@
                 
         </div><!-- End col lg-9 -->
         <aside class="col-md-3">
-                <div class="widget" id="cat_blog"><img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=242%C3%97600&w=242&h=600"></div><!-- End widget -->
-               <hr>
-                
-     </aside><!-- End aside -->
+            <div class="widget" id="cat_blog"><img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=249%C3%97154&w=249&h=154"></div><!-- End widget -->
+            <hr>  
+            <div class="widget" id="cat_blog"><img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=249%C3%97154&w=249&h=154"></div><!-- End widget -->
+            <hr>  
+            <div class="widget" id="cat_blog"><img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=249%C3%97154&w=249&h=154"></div><!-- End widget -->
+            <hr>  
+            <div class="widget" id="cat_blog"><img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=249%C3%97154&w=249&h=154"></div><!-- End widget -->
+            <hr>  
+         </aside><!-- End aside -->
     </div><!-- End row -->
 </div><!-- End container -->
     
