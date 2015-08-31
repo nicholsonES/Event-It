@@ -240,7 +240,7 @@ a.btn_1,
   color: #fff;
   background: #e4502f;
   cursor: pointer;
-  padding: 7px 15px;
+  padding: 7px 20px;
   display: inline-block;
   outline: none;
   font-size: 12px;
@@ -2321,22 +2321,21 @@ input.qty2 {
 }
 
 .feature i {
-  margin: 0;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  padding: 0;
-  margin: 0;
-  width: 65px;
-  height: 65px;
-  line-height: 60px;
-  text-align: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 1px dashed #ccc;
-  font-size: 34px;
-  color: #81b6b4;
+      /* margin: 0; */
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 30px; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* width: 65px; */
+    /* height: 65px; */
+    /* line-height: 60px; */
+    /* text-align: center; */
+    /* -webkit-border-radius: 50%; */
+    /* border-radius: 50%; */
+    /* border: 1px dashed #ccc; */
+    font-size: 24px;
+    color: #81b6b4;
 }
 
 .features-bg {
@@ -5149,7 +5148,8 @@ top: 50%;
 
 .bubble-padding{
   padding: 10px;
-  font-size: 13px;    
+  font-size: 11px;    
+  font-size: 11px;
   text-transform: none;
 }
 .spacing{
@@ -5371,8 +5371,12 @@ a.profile-save {
   height: 1150px !important;
 }
 }
+.bottom-quote{
+  font-size: 24px;
+  color: #e2502e;
+}
 .price-tag{
-  text-transform: none;
   font-size: 14px;
   font-weight: normal;
+  text-transform: none;
 }
