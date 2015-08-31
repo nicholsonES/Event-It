@@ -150,7 +150,14 @@
 <div  class="container margin_60">
             
         <div class="row">
-        
+         <div >
+          <div>
+            <h3>Listing</h3>
+            <p>
+              List page
+            </p>
+          </div>
+        </div>
         <div class="col-lg-9 col-md-9">
                  <div id="tools">
            <div class="row">
