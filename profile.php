@@ -138,6 +138,7 @@
                     <!-- /search_bar-->
                 </section>
                 <!-- End hero -->
+                <br/>
                 <div class="container margin_60">
                     <div class="container">
                         <div class="row">
@@ -288,6 +289,17 @@
                                     <li>
                                         <a href="#">
                                             <h5>info@tentation.co.za</h5>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="icons-client">
+                                            <i class="icon-facebook-squared"></i>
+                                        </a>
+                                        <a href="#" class="icons-client">
+                                            <i class="icon-twitter-squared"></i>
+                                        </a>
+                                        <a href="#" class="icons-client">
+                                            <i class="icon-linkedin-squared"></i>
                                         </a>
                                     </li>
                                 </ul>
