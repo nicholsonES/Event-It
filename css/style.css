@@ -240,7 +240,7 @@ a.btn_1,
   color: #fff;
   background: #e4502f;
   cursor: pointer;
-  padding: 7px 20px;
+  padding: 7px 15px;
   display: inline-block;
   outline: none;
   font-size: 12px;
@@ -5371,4 +5371,9 @@ a.profile-save {
   .fixed-height{
   height: 1150px !important;
 }
+}
+.price-tag{
+  text-transform: none;
+  font-size: 14px;
+  font-weight: normal;
 }

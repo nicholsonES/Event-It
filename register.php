@@ -107,8 +107,12 @@ $plan = "$_GET[l]";
                         <li>showcase up to 9 <strong>producta and services</strong></li>
                         <li>expand your <strong>digital footprint</strong></li>
                     </ul>
-                    <p class=" col-md-8 col-md-offset-2 text-center"><div id="packStandard"><a href="supplier.php#standard" class="btn_1 btn_standard">Choose this package</a></div></p>
-
+                    <div class="row">
+                        <p class=" col-md-8 col-md-offset-2 text-center"><div id="packStandard"><a href="supplier.php#standard" class="btn_1 btn_standard">Choose this package</a></div></p>
+                    </div>
+                    <div class="row">
+                        <p class="orange col-md-8 col-md-offset-2 price-tag">R999 Per Month</p>
+                    </div>
                 </div> <!-- End col-md-4 -->
 
                 <div class="plan plan-tall col-md-4">
@@ -123,7 +127,12 @@ $plan = "$_GET[l]";
                         <li>Send us <strong>blog posts</strong> to publish</li>
                         <li>A <strong>featured</strong> listing</li>
                     </ul>
-                    <p class=" col-md-8 col-md-offset-2 text-center"><a href="supplier.php#premium" class="btn_1 green" id="packPremium">Choose this package</a></p>
+                    <div class="row">
+                        <p class=" col-md-8 col-md-offset-2 text-center"><a href="supplier.php#premium" class="btn_1 green">Choose this package</a></p>
+                    </div>
+                    <div class="row">
+                        <p class="orange col-md-8 col-md-offset-2 price-tag">R999 Per Month</p>
+                    </div>
                 </div><!-- End col-md-4 -->
                 
                 <div class="plan col-md-4">
@@ -136,7 +145,13 @@ $plan = "$_GET[l]";
                         <li>Display your <strong>website </strong> link in your listing</li>
                         <li>Display 3<strong>social media</strong> links</li>
                     </ul>
-                    <p class=" col-md-8 col-md-offset-2 text-center"><a href="supplier.php#standardplus" class="btn_1" id="packPlus">Choose this package</a></p>
+                    <div class="row">
+                        <p class=" col-md-8 col-md-offset-2 text-center"><a href="supplier.php#standardplus" class="btn_1" id="packPlus">Choose this package</a></p>
+                    </div>
+                    <div class="row">
+                        <p class="orange col-md-8 col-md-offset-2 price-tag">R999 Per Month</p>
+                    </div>
+                    
                 </div><!-- End col-md-4 -->
             </div><!-- End row plans-->
 
